@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 })
 
-function enviar_correo() {
-    alert("El correo fue enviado correctamente");
-}
+//function enviar_correo() {
+  
+//alert("El correo fue enviado correctamente");
+//}
+
+
+$(document).ready(function() {
+    // Inicializar el tooltip de Bootstrap
+    $('[data-bs-toggle="tooltip"]').tooltip();
+
+    // Manejar el evento de clic del botón
+    $("#btnEnviarCorreo").click(function() {
+        alert("El correo fue enviado correctamente");
+    });
+});
