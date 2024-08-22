@@ -21,3 +21,14 @@ $(document).ready(function() {
         alert("El correo fue enviado correctamente");
     });
 });
+
+$(document).ready(function() {
+    $("#tituloIngredientes").dblclick(function() {
+        $(this).css("color", "red");
+    });
+});
+$(document).ready(function() {
+    $("#tituloPreparacion").dblclick(function() {
+        $(this).css("color", "red");
+    });
+});
