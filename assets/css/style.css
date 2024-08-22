@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: "Cabin", sans-serif;
+}
+body hr{
+
+    border: none; /* Elimina el borde predeterminado */
+    height: 1pt; /* Ajusta el grosor de la línea */
+    background-color: #000000;
+    
+}
+.slider {
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    margin: auto;
+  }
+  
+  .slider img {
+    width: 100%; /* Asegura que las imágenes llenen el contenedor */
+    height: auto;
+  }/* carrousel
+.slider-seccion_conjunto_1 {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 150px;
+
+
+}*/
+
+.seccion_conjunto_1 img {
+
+    width: 233px;
+    height: 170px;
+
+
+}
+
+
+.contenedor_texto h1 {
+
+
+    text-align: left;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.contenedor_texto {
+
+    width: 425px;
+    height: 201px;
+    margin-top: 30px;
+    margin-left: 16px;
+
+}
+
+.seccion_pizza_1 {
+
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.seccion_pizza_1 img {
+
+    width: 482px;
+    height: 384px;
+    padding-left: 150px;
+    padding-top: 24px;
+    padding-bottom: 68px;
+
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000
+}
+
+/*Recetas relacionadas*/
+.img-fluid {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 79px;
+    margin-top: 50.5px;
+
+
+}
+
+.img-fluid img {
+
+    width: 316px;
+    height: 180px;
+
+
+}
+
+.contenedor {
+
+    outline: #DDDDDD solid 2px;
+    width: 316px;
+    height: 397px;
+
+
+}
+
+.recetas-relacionadas h2 {
+
+    text-align: center;
+}
+/*contenedor ingredientes_contenedor*/
+.ingredientes_contenedor{
+    text-align: left;
+}
+.preparacion_contenedor{
+    text-align:left;
+}
+.ingredientes_contenedor ul {
+    list-style-type: none; /* Elimina los símbolos predeterminados de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.preparacion_contenedor ul {
+    list-style-type: none; /* Elimina los símbolos predeterminados de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+
+/*seccion suscribete*/
+
+
+.suscribete {
+    background: #DC3545;
+    height: 534px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-suscribete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.suscribete h2 {
+    font-family: Cabin, sans-serif;
+    color: #FFFFFF;
+    font-size: 40pt;
+}
+
+.suscribete h3 {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+#carouselExampleIndicators {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.suscribete button {
+    width: 233px;
+    height: 40px;
+    font-size: 16pt;
+    padding: 5px;
+    border: #DDDDDD 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #DC3545;
+    color: #DDDDDD;
+    margin-top: 50px;
+}
+
+/*seccion final*/
+.seccion-final{
+    background-color: #373A3C;
+    height: 80pt;
+}
+.seccion-final h2{
+
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 31px;
+    font-size: 37px;
+}
