@@ -32,3 +32,9 @@ $(document).ready(function() {
         $(this).css("color", "red");
     });
 });
+
+$(document).ready(function() {
+    $(".card-title").click(function() {
+        $(this).next(".card-content").toggle(); // Alterna la visibilidad del contenido de la tarjeta
+    });
+});

@@ -127,7 +127,36 @@ body hr{
 
 
 }
+/* RECETAS RELACIONADAS*/
+.Cabin {
+    text-align: left;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 37px;
+}
 
+.card-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 24px;
+    padding-left: 19.52px;
+}
+
+.card-content {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 19.52px;
+    padding-top: 23px
+}
+
+
+.recetas-relacionadas .contenedor{
+
+    border-radius: 2px;
+}
 .recetas-relacionadas h2 {
 
     text-align: center;
