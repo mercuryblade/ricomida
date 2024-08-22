@@ -147,12 +147,16 @@ body hr{
 .card-content {
     font-family: "Cabin", sans-serif;
     font-weight: bold;
-    font-size: 14px;
-    padding-left: 19.52px;
-    padding-top: 23px
+    font-size: 20px;
+  
 }
+.listaingredientes{
 
-
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #373A3C;
+}
 .recetas-relacionadas .contenedor{
 
     border-radius: 2px;
@@ -167,6 +171,8 @@ body hr{
 }
 .preparacion_contenedor{
     text-align:left;
+    padding-right: 150px;
+    
 }
 .ingredientes_contenedor ul {
     list-style-type: none; /* Elimina los símbolos predeterminados de la lista */
@@ -180,7 +186,22 @@ body hr{
     margin: 0; /* Elimina el margen predeterminado */
 }
 
+#tituloIngredientes {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #373A3C;
+    text-decoration: underline;
+    text-decoration-color: #000000; /* Color del subrayado */
+}
 
+#tituloPreparacion {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #373A3C;
+    text-decoration: underline;
+    text-decoration-color: #000000; /* Color del subrayado */
+    
+}
 /*seccion suscribete*/
 
 
